@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class plants
+    public class plants
     {
+        public string COMMON { get; set; }
+        public string BOTANICAL { get; set; }
+        public string ZONE { get; set; }
+        public string LIGHT { get; set; }
+        public string PRICE { get; set; }
+        public int AVAILABILITY { get; set; }
 
+        }
     }
-}
+    
+
