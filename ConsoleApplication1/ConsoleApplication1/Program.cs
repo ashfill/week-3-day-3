@@ -76,7 +76,7 @@ namespace ConsoleApplication1
                             }
                         case "AVAILABILITY":
                             {
-                                NewPlant.AVAILABILITY = Convert.ToInt32(grandChild.InnerText);
+                                NewPlant.AVAILABILITY = grandChild.InnerText;
                                 break;
                             }
                         default:

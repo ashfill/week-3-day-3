@@ -13,7 +13,7 @@ namespace ConsoleApplication1
         public string ZONE { get; set; }
         public string LIGHT { get; set; }
         public string PRICE { get; set; }
-        public int AVAILABILITY { get; set; }
+        public string AVAILABILITY { get; set; }
 
         }
     }
